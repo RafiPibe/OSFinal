@@ -1,0 +1,8 @@
+version: '3'
+services:
+  databases:
+    build:
+      context: /home/pibe/SisopFP/
+      dockerfile: dockerfile
+    deploy:
+      replicas: 5
